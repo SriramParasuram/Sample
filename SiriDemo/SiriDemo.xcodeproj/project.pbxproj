@@ -536,7 +536,8 @@
 		2B23BE8D22B91753007B2F54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CNN55283J;
 				INFOPLIST_FILE = siriIntentUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -546,7 +547,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.msf.siri.intentUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = MSFSiriIntentUI;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -555,7 +556,8 @@
 		2B23BE8E22B91753007B2F54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CNN55283J;
 				INFOPLIST_FILE = siriIntentUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -565,7 +567,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.msf.siri.intentUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = MSFSiriIntentUI;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -574,7 +576,8 @@
 		2B23BE9022B91753007B2F54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CNN55283J;
 				INFOPLIST_FILE = siriIntent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -584,7 +587,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.msf.siri.intent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = MSFSiriIntent;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -593,7 +596,8 @@
 		2B23BE9122B91753007B2F54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5CNN55283J;
 				INFOPLIST_FILE = siriIntent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -603,7 +607,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.msf.siri.intent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = MSFSiriIntent;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
